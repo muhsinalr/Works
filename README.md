@@ -1,3 +1,3 @@
 # Works
-Brach :Signup
-Branch: Login
+Branch :Signup
+Branch :Login
