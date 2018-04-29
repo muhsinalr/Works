@@ -1,0 +1,24 @@
+  <?php
+    if(!empty($_POST['name']) && !empty($_POST['sex']) && !empty($_POST['dob']) && !empty($_POST['email']) && !empty($_POST['mob']) && !empty($_POST['uname']) && !empty($_POST['pass']) && !empty($_POST['cpass'])){
+        if($_POST['pass'] == $_POST['cpass']){
+        $n=$_POST['name'];
+        $s=$_POST['sex'];
+        $d=$_POST['dob'];
+        $e=$_POST['email'];
+        $m=$_POST['mob'];
+        $u=$_POST['uname'];
+        $p=$_POST['pass'];
+   
+   $que = "insert into register(fname,gender,dob,email,mobile,uname,pass)values('$n','$s','$d','$e','$m','$u','$p')";
+   $con=mysqli_connect("localhost","root","","SIGNUP") or die("Error in database connection");
+            $jusi=mysqli_query($con,$que) or die('Error in Query');
+            echo "Creation successfully";
+        }
+        else{
+            echo "Password not match";
+        }
+    }
+       else{
+           echo "All fields are required";
+       }     
+    ?>
