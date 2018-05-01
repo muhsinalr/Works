@@ -1,0 +1,21 @@
+<?php
+    if(!empty($_POST['usname']) && !empty($_POST['pass1'])){
+        $un=$_POST['usname'];
+        $up=$_POST['pass1'];
+        $con=mysqli_connect("localhost","root","","SIGNUP") or die("Error in database connection");
+        $query="select * from register where uname='$un' && pass='$up'";
+        if($jus=mysqli_query($con,$query)){
+            $num=mysqli_num_rows($jus);
+      if($num==0){
+            echo "Invalid Username or Password";
+        }
+        else{
+       
+        echo "Login Successfully";
+        }
+    }
+    }
+        else{
+    echo "All fields are required";
+}
+    ?>
