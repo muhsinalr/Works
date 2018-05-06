@@ -71,7 +71,8 @@
         <label>    Password : <br><input type="password" name="pass1"><br><br></label>
                                   <input type="submit" value="login">
         </form>
-        <form action="signup.php">  <label> New to this site :
+        <form action="signup.php"> 
+        <label> New to this site :
             <input type="submit" value="signup"></label>
             </form>
     </div>
