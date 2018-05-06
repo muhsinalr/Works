@@ -67,7 +67,7 @@
 <body>
     <div class="loginbox"><h1>LOGIN</h1>
     <form action="loginphp.php" method="post">
-        <label>    Userame : <input type="text" name="usname"><br><br></label>
+        <label>    UserName : <input type="text" name="usname"><br><br></label>
         <label>    Password : <br><input type="password" name="pass1"><br><br></label>
         <input type="submit" value="login">
         </form>
