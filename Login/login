@@ -69,7 +69,7 @@
     <form action="loginphp.php" method="post">
         <label>    UserName : <input type="text" name="usname"><br><br></label>
         <label>    Password : <br><input type="password" name="pass1"><br><br></label>
-        <input type="submit" value="login">
+                                  <input type="submit" value="login">
         </form>
         <form action="signup.php">  <label> New to this site :
             <input type="submit" value="signup"></label>
