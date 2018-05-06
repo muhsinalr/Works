@@ -72,8 +72,8 @@
         <input type="submit" value="login">
         </form>
         <form action="signup.php">  <label> New to this site :
-            <input type="submit" value="signup">
-            </label></form>
+            <input type="submit" value="signup"></label>
+            </form>
     </div>
     </body>
 </html>
