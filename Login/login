@@ -48,7 +48,7 @@
             outline: none;
             height: 40px;
             background: #2c9bef;
-            color: #fff;
+            color: #ffffff;
             font-size: 18px;
             border-radius: 20px;
         }
