@@ -16,7 +16,7 @@
             width: 320px;
             height: 460px;
             background: rgba(0, 0, 0, 0.5);
-            color:  #aaa;
+            color:  #ffffff;
             top: 50%;
             left: 50%;
             position: absolute;
