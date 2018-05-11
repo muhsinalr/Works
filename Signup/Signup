@@ -64,7 +64,7 @@
                      </select><br><br></label> 
           <label>    D.O.B :<input type="date" name="dob"><br></label>
           <label>    Email :<input type="email" name="email"><br></label>
-          <label>    Mobile :<input type="text" name="mob"><br></label>
+          <label>    Phone :<input type="text" name="mob"><br></label>
           <label>    User Name :<input type="text" name="uname"><br></label>
           <label>    Password :<input type="password" name="pass"><br></label>
           <label>    Confirm Password :<input type="password" name="cpass"><br></label>
