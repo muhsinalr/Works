@@ -2,7 +2,7 @@
     if(!empty($_POST['usname']) && !empty($_POST['pass1'])){
         $un=$_POST['usname'];
         $up=$_POST['pass1'];
-        $con=mysqli_connect("localhost","root","","SIGNUP") or die("Error in database connection");
+        $con=mysqli_connect("localhost","root","","SIGNUP") or die("Error in database conection");
         $query="select * from register where uname='$un' && pass='$up'";
         if($jusi=mysqli_query($con,$query)){
             $num=mysqli_num_rows($jus);
